@@ -1,0 +1,10 @@
+{"timestamp": "2026-05-24T08:47:55.041020Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2026-05-24T08:47:55.041380Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2026-05-24T08:47:55.041554Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_yz...", "GOOGLE_API_KEY": "AIzaSy..."}, "timestamp": "2026-05-24T08:47:55.041692Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2026-05-24T08:47:55.043202Z", "level": "info", "event": "YAML config loaded"}
+{"session_id": "session_20260524_141755_946271ae", "temp_dir": "data\\session_20260524_141755_946271ae", "faiss_dir": "faiss_index\\session_20260524_141755_946271ae", "sessionized": true, "timestamp": "2026-05-24T08:47:55.043829Z", "level": "info", "event": "ChatIngestor initialized"}
+{"uploaded": "D:\\LLMOPS\\data\\Attention_is_all_you_need.pdf", "saved_as": "data\\session_20260524_141755_946271ae\\809ad617.pdf", "timestamp": "2026-05-24T08:47:55.046887Z", "level": "info", "event": "File saved for ingestion"}
+{"count": 15, "timestamp": "2026-05-24T08:47:55.673859Z", "level": "info", "event": "Documents loaded"}
+{"chunks": 251, "chunk_size": 200, "overlap": 20, "timestamp": "2026-05-24T08:47:55.676230Z", "level": "info", "event": "Documents split"}
+{"error": "'ModelLoader' object has no attribute 'load_embeddings'", "timestamp": "2026-05-24T08:47:55.677167Z", "level": "error", "event": "Failed to build retriever"}

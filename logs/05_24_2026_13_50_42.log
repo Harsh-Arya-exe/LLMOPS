@@ -1,0 +1,4 @@
+{"timestamp": "2026-05-24T08:20:42.505212Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2026-05-24T08:20:42.505588Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"missing_keys": ["GOOGLE_API_KEY"], "timestamp": "2026-05-24T08:20:42.505873Z", "level": "error", "event": "Missing required API keys"}
+{"error": "Error in [<unknown>] at line [-1] | Message: Missing API keys", "timestamp": "2026-05-24T08:20:42.506152Z", "level": "error", "event": "Failed to initialize ChatIngestor"}

@@ -1,0 +1,57 @@
+{"timestamp": "2026-05-24T08:59:19.397978Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2026-05-24T08:59:19.398473Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2026-05-24T08:59:19.398736Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"timestamp": "2026-05-24T08:59:19.398905Z", "level": "info", "event": "Loaded HUGGINGFACEHUB_ACCESS_TOKEN from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_yz...", "GOOGLE_API_KEY": "AIzaSy...", "HUGGINGFACEHUB_ACCESS_TOKEN": "hf_mGZ..."}, "timestamp": "2026-05-24T08:59:19.399050Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2026-05-24T08:59:19.400476Z", "level": "info", "event": "YAML config loaded"}
+{"session_id": "session_20260524_142919_5039cae3", "temp_dir": "data\\session_20260524_142919_5039cae3", "faiss_dir": "faiss_index\\session_20260524_142919_5039cae3", "sessionized": true, "timestamp": "2026-05-24T08:59:19.402229Z", "level": "info", "event": "ChatIngestor initialized"}
+{"uploaded": "D:\\LLMOPS\\data\\Attention_is_all_you_need.pdf", "saved_as": "data\\session_20260524_142919_5039cae3\\aa9f18bd.pdf", "timestamp": "2026-05-24T08:59:19.404276Z", "level": "info", "event": "File saved for ingestion"}
+{"count": 15, "timestamp": "2026-05-24T08:59:20.029414Z", "level": "info", "event": "Documents loaded"}
+{"chunks": 251, "chunk_size": 200, "overlap": 20, "timestamp": "2026-05-24T08:59:20.032022Z", "level": "info", "event": "Documents split"}
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+Loading faiss with AVX2 support.
+Successfully loaded faiss with AVX2 support.
+{"added": 1, "index": "faiss_index\\session_20260524_142919_5039cae3", "timestamp": "2026-05-24T08:59:31.153319Z", "level": "info", "event": "FAISS index updated"}
+{"k": 5, "fetch_k": 20, "lambda_mult": 0.5, "timestamp": "2026-05-24T08:59:31.153576Z", "level": "info", "event": "Using MMR search"}
+{"timestamp": "2026-05-24T08:59:31.154782Z", "level": "info", "event": "Running in LOCAL mode: .env loaded"}
+{"timestamp": "2026-05-24T08:59:31.154981Z", "level": "info", "event": "Loaded GROQ_API_KEY from individual env var"}
+{"timestamp": "2026-05-24T08:59:31.155140Z", "level": "info", "event": "Loaded GOOGLE_API_KEY from individual env var"}
+{"timestamp": "2026-05-24T08:59:31.155314Z", "level": "info", "event": "Loaded HUGGINGFACEHUB_ACCESS_TOKEN from individual env var"}
+{"keys": {"GROQ_API_KEY": "gsk_yz...", "GOOGLE_API_KEY": "AIzaSy...", "HUGGINGFACEHUB_ACCESS_TOKEN": "hf_mGZ..."}, "timestamp": "2026-05-24T08:59:31.155481Z", "level": "info", "event": "API keys loaded"}
+{"config_keys": ["embedding_model", "retriever", "llm"], "timestamp": "2026-05-24T08:59:31.157344Z", "level": "info", "event": "YAML config loaded"}
+{"provider": "huggingface", "model": "mistralai/Mistral-7B-Instruct-v0.3", "timestamp": "2026-05-24T08:59:31.157699Z", "level": "info", "event": "Loading LLM"}
+{"error": "LLM could not be loaded", "timestamp": "2026-05-24T08:59:31.344467Z", "level": "error", "event": "Failed to load LLM"}
+{"error": "Error in [D:\\LLMOPS\\multi_doc_chat\\src\\document_chat\\retrieval.py] at line [155] | Message: LLM loading error in ConversationalRAG\nTraceback:\nTraceback (most recent call last):\n  File \"D:\\LLMOPS\\multi_doc_chat\\src\\document_chat\\retrieval.py\", line 155, in _load_llm\n    raise ValueError(\"LLM could not be loaded\")\nValueError: LLM could not be loaded\n", "timestamp": "2026-05-24T08:59:31.345313Z", "level": "error", "event": "Failed to initialize ConversationalRAG"}
