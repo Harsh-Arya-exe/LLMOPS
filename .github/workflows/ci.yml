@@ -33,4 +33,4 @@ jobs:
           HUGGINGFACEHUB_ACCESS_TOKEN: dummy
           LLM_PROVIDER: groq
         run: |
-        uv run pytest -q
+          uv run pytest -q
